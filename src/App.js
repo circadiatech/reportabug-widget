@@ -1,6 +1,6 @@
 import React from "react";
-import ScreenshotButton from "./components/ScreenshotButton";
 import { Header, FixedButton } from "./components";
+import ScreenshotButton from "./components/ScreenshotButton";
 
 export default function App({ config }) {
   return (
