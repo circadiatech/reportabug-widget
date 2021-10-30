@@ -1,0 +1,10 @@
+.reportABug-button {
+  position: absolute;
+  width: 270px;
+  height: 43px;
+  left: 0px;
+  top: 0px;
+
+  background: #5b79ff;
+  border-radius: 5px;
+}
