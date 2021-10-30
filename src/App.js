@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-import FixedButton from "./Components/FixedButton";
+import FixedButton from "./components/FixedButton";
 
 export default function App({ config }) {
   return (
