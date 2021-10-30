@@ -9,6 +9,6 @@ export const init = (config) => {
 
   ReactDOM.render(
     <App config={config} />,
-    document.getElementById("app-widget")
+    document.querySelector("#app-widget")
   );
 };
