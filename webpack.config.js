@@ -1,5 +1,5 @@
 module.exports = {
-  mode: "production",
+  mode: "development",
   entry: "/src/index.js",
   output: {
     library: "ReportBugWidget",
@@ -9,6 +9,7 @@ module.exports = {
 
   module: {
     rules: [
+      { test: /\.css$/, use: [ 'style-loader', 'css-loader' ] },
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
