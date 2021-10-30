@@ -1,0 +1,25 @@
+.floatingButton {
+  background-image: url("../../assets/Button.png");
+  background-size: cover;
+  margin: 10px 0px;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 26px;
+  height: 50px;
+  width: 50px;
+}
+
+.floatingButton:hover {
+  height: 50px;
+  width: 300px;
+  margin: 10px 0px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 26px;
+  background-image: none;
+  background: #5b79ff;
+}
+
+.floatingButton:hover p {
+  display: block !important;
+}
