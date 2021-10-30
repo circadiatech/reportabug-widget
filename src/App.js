@@ -3,7 +3,7 @@ import Header from "./Header";
 
 export default function App({ config }) {
   return (
-    <div>
+    <div className="text-center">
       <Header />
       <h1>React Bug Widget</h1>
     </div>
