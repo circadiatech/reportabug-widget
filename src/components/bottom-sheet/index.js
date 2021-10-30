@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function BottomSheet() {
+export function BottomSheet() {
     return (
         <div>
             <div class="header">
@@ -23,6 +23,5 @@ export default function BottomSheet() {
                 </form>
             </div>
         </div>
-
     );
 }

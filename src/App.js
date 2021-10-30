@@ -1,11 +1,10 @@
 import React from "react";
-import Header from "./components/Header";
 import ScreenshotButton from "./components/ScreenshotButton";
-import FixedButton from "./Components/FixedButton";
+import { Header, FixedButton } from "./components";
 
 export default function App({ config }) {
   return (
-    <div>
+    <div className="text-center">
       <Header title={config.title} />
       <ScreenshotButton />
       <FixedButton />
