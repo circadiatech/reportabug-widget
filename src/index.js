@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
+import "./index.css";
 
 export const init = (config) => {
   const widgetDiv = document.createElement("div");
@@ -9,6 +10,6 @@ export const init = (config) => {
 
   ReactDOM.render(
     <App config={config} />,
-    document.getElementById("app-widget")
+    document.querySelector("#app-widget")
   );
 };
