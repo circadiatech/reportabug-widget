@@ -1,7 +1,7 @@
 import React from "react";
-import "./button.css";
+import "./styles.css";
 
-function index() {
+export function FixedButton() {
   return (
     <div role="group" className="buttonDiv">
       <button
@@ -28,5 +28,3 @@ function index() {
     </div>
   );
 }
-
-export default index;
