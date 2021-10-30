@@ -4,7 +4,7 @@ import { Modal, Button } from "antd";
 import "./style.css";
 
 let abc = false;
-export default function ReportABug(props = {}) {
+export default function ScreenshotButton(props = {}) {
   let doc = document,
     docElem = doc.documentElement,
     body = doc.getElementsByTagName("body")[0],
